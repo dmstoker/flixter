@@ -14,6 +14,7 @@ gem 'carrierwave-aws'
 gem 'stripe'
 gem 'ranked-model'
 gem 'jquery-ui-rails'
+gem 'rubocop', '~> 0.78.0', require: false
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.3'
