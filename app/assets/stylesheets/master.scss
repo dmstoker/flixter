@@ -22,7 +22,7 @@
   -o-background-size: cover;
   background-size: cover;
   height: 370px;
-  box-shadow: 0px 3px 8px #2a2a2a;
+  box-shadow: 0 3px 8px #2a2a2a;
 }
 
 .navbar,
@@ -68,10 +68,11 @@ body {
   background: #fff;
   border: 1px solid #ccc;
   border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
-   padding: 10px;
+  padding: 10px;
 }
 
-.booyah-box h2, .booyah-box h1 {
+.booyah-box h1,
+.booyah-box h2 {
   margin: 10px;
 }
 
@@ -79,7 +80,7 @@ body {
   color: #ff3333;
   background-color: #FFEEEE;
   border-radius: 3px;
-  padding: 2px 8px 2px 8px;
+  padding: 2px 8px;
   margin: 10px;
 }
 
@@ -114,11 +115,12 @@ body {
 ul {
   list-style-type: none;
 }
+
 .section-li {
   border: 1px solid;
   border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
   padding: 5px;
-  margin: 20px
+  margin: 20px;
 }
 
 ul .header {
@@ -128,6 +130,7 @@ ul .header {
 ul .header .fa {
   font-size: 20px;
 }
+
 .lessons li {
   background: black;
   color: white;
