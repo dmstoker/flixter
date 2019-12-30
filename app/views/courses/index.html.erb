@@ -9,15 +9,16 @@
      <%= link_to course.title, course_path(course) %>
    </h2>
      <br />
-     <div class="row">
+     <div class="text-center">
+       <% if course.image.url %>
+         <div class="col-sm-8 col-12">
+           <%= image_tag course.image.url, class: 'img-fluid' %>
+         </div>
+       <% end %>
     <div class="col-sm-8 col-12">
       <%= course.description %>
     </div>
-    <% if course.image.url %>
-      <div class="col-sm-8 col-12">
-        <%= image_tag course.image.url, class: 'img-fluid' %>
-      </div>
-    <% end %>
+
     <div class="col-sm-4 col-12 text-center">
       <%= link_to 'More Details...', course_path(course), class: 'btn btn-primary btn-large' %>
     </div>
