@@ -37,7 +37,9 @@
   <%= image_tag current_course.image.to_s, class: 'img-fluid' %>
 
   <div class="text-center">
-    <%= link_to 'Preview As Student...', course_path(current_course), class: 'btn btn-warning float-right pas-button' %>
+    <br />
+    <%= link_to 'Preview As Student...', course_path(current_course), class: 'btn btn-warning' %>
+    <br />
       <br class="clr" />
       <!-- Button trigger modal -->
       <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#newSectionModal">
