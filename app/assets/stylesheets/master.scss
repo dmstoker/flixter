@@ -153,3 +153,7 @@ ul .header .fa {
 .social a:hover {
   text-decoration: none;
 }
+
+abbr[title="required"] {
+  display: none;
+}
